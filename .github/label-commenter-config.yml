@@ -1,0 +1,6 @@
+labels:
+  - name: reviewed
+    labeled:
+      pr:
+        body: Lucky lad @{{ pull_request.user.login }}. You gets the approve, move this to QA.
+        action: open
